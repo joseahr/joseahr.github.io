@@ -34,7 +34,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/app.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<h4>Jose Ángel Hermosilla Rodrigo Webpage</h4>\n<p>Coming soon</p>\n"
+module.exports = "<md-toolbar color=\"primary\">\n  <span>Welcome!</span>\n</md-toolbar>\n<md-sidenav-container>\n  <md-sidenav>\n    <!-- sidenav content -->\n    Projects coming soon\n  </md-sidenav>\n\n  <!-- primary content -->\n</md-sidenav-container>\n\n\n<h4>Jose Ángel Hermosilla Rodrigo Webpage</h4>\n<p>Coming soon</p>\n"
 
 /***/ }),
 
