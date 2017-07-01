@@ -1,15 +1,19 @@
 <md-toolbar color="primary">
-  <span>Welcome!</span>
+    <button type="button" md-button (click)="sidenav.open()">
+      Welcome!
+    </button>
 </md-toolbar>
-<md-sidenav-container>
-  <md-sidenav>
-    <!-- sidenav content -->
-    Projects coming soon
+
+
+<md-sidenav-container class="example-container">
+  <md-sidenav #sidenav class="example-sidenav">
+    Coming Soon
   </md-sidenav>
 
-  <!-- primary content -->
+  <div class="example-sidenav-content">
+    <h4>Jose Ángel Hermosilla Rodrigo Webpage</h4>
+    <p>Coming soon</p>
+  </div>
+
 </md-sidenav-container>
 
-
-<h4>Jose Ángel Hermosilla Rodrigo Webpage</h4>
-<p>Coming soon</p>
